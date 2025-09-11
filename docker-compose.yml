@@ -1,0 +1,13 @@
+services:
+  fraud-api:
+    build: .
+    container_name: fraud-api
+    ports:
+      - "8888:8888"
+    volumes:
+      - /c/staj_data:/app/staj_data
+    environment:
+      OUTPUT_FOLDER: /app/staj_data
+      LOG_PATH: /app/staj_data/logs.txt
+      REPORT_PATH: /app/staj_data/report.txt
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8888
