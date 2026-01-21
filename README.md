@@ -22,6 +22,8 @@ If the container dies, the results don’t. You can inspect everything after the
 Balanced Random Forest handles class imbalance at the algorithm level instead of relying on post-hoc threshold tricks. The goal is not leaderboard performance — it’s **stable recall on rare events** without turning the model into a false-positive machine.
 
 Weighted F1 is the primary signal used during evaluation.
+<img width="1880" height="833" alt="Screenshot 2025-08-18 094921" src="https://github.com/user-attachments/assets/e3a9523d-8a7c-4aff-8037-d00b037a846b" />
+
 
    How the pipeline works
 
