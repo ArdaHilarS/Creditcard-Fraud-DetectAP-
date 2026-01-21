@@ -87,11 +87,3 @@ If something is happening, you can find it on disk.
 
 That’s the point.
 
-
-If you want, I can:
-
-* Rewrite this README to match a **specific FAANG team** (Meta ML, Google Infra, Amazon Applied Science)
-* Extract **resume bullets** directly from this project
-* Add a short **“Design Decisions”** section interviewers love
-
-Just tell me where you’re applying.
